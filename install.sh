@@ -50,7 +50,9 @@ fi
 
 # 7. Автообновление раз в сутки в 05:00
 CRON="0 5 * * * curl -fsSL https://raw.githubusercontent.com/kaborisevichlevin-bit/kablampa/main/install.sh | PORT=$PORT IP=$IP bash >/var/log/kablampa.log 2>&1"
-( crontab -l 2>/dev/null | grep -v 'kablampa/main/install.sh' ; echo "$CRON" ) | crontab -
+if command -v crontab >/dev/null 2>&1; then
+  { crontab -l 2>/dev/null | grep -v 'kablampa/main/install.sh' || true; echo "$CRON"; } | crontab - || echo "!! не удалось настроить автообновление"
+fi
 
 echo
 echo "================================================"
