@@ -1,0 +1,6 @@
+{
+ "name": "KABLampa",
+ "version": "latest",
+ "parameter": "content:http://87.242.87.155:8080/msx/start.json",
+ "action": "link:http://87.242.87.155:8080"
+}
