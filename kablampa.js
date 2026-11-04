@@ -21,7 +21,12 @@
         { name: 'Интерфейс мод',            url: 'https://lampaplugins.github.io/store/interface_mod.js' },
         { name: 'Логотипы вместо названий', url: 'https://lampaplugins.github.io/store/logo.js' },
         { name: 'Трейлеры iTunes',          url: 'https://plugin.rootu.top/trailers.js' },
-        { name: 'Пункт «Выход» в меню',     url: 'https://tsynik.github.io/lampa/e.js' }
+        { name: 'Пункт «Выход» в меню',     url: 'https://tsynik.github.io/lampa/e.js' },
+        // Сериалы, история, оформление
+        { name: 'Статус сериалов',          url: 'https://igorek1986.github.io/lampa-plugins/status.js' },
+        { name: 'MyShows: просмотренные серии', url: 'https://igorek1986.github.io/lampa-plugins/myshows.js' },
+        { name: 'Trakt: история просмотров', url: 'https://lampame.github.io/main/trakttv.js' },
+        { name: 'Full Hero: карточка в стиле Apple TV', url: 'https://igorek1986.github.io/lampa-plugins/full_hero.js' }
     ];
 
     function read(key, def) {
