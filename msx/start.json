@@ -1,6 +1,6 @@
 {
 	"name": "KABLampa",
 	"version": "latest",
-	"parameter": "content:{PREFIX}{domain}/msx/start.json",
+	"parameter": "content:{PREFIX}{domain}/msx/content.json",
 	"action": "link:{PREFIX}{domain}"
 }
