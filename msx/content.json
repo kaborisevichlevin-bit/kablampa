@@ -1,0 +1,18 @@
+{
+	"type": "pages",
+	"headline": "KABLampa",
+	"template": {
+		"type": "separate",
+		"layout": "0,0,4,3",
+		"color": "msx-glass",
+		"imageFiller": "smart"
+	},
+	"items": [
+		{
+			"title": "KABLampa",
+			"titleFooter": "Фильмы и сериалы",
+			"image": "{PREFIX}{domain}/msx-logo.png",
+			"action": "link:{PREFIX}{domain}"
+		}
+	]
+}
